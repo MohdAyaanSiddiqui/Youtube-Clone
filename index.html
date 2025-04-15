@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube Clone</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <nav class="navbar">
+        <div class="nav-section nav-left">
+          <button class="nav-button menu-button"><!--Const Menubar-->
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <a href="#" class="nav-logo">
+            <img src="img.webp" alt="Logo" class="logo-image">
+            <h2 class="logo-text">U Tube</h2>
+          </a>
+        </div>
+        <div class="nav-section nav-center">
+          <form action="#" class="search-form">
+            <input type="search" placeholder="Search" class="search-input">
+            <button class="nav-button search-button">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+          <button class="nav-button mic-button">
+            <i class="fa-solid fa-microphone"></i>
+          </button>
+        </div>
+        <div class="nav-section nav-right">
+          <button class="nav-button theme-button">
+            <i class="fa-solid fa-moon"></i>
+          </button>
+          <img src="per.webp" alt="User Image" class="user-image">
+        </div>
+      </nav>
+    </header>
+    <main class="main-layout">
+      <aside class="sidebar">
+        <div class="link-container">
+          <div class="link-section">
+            <a href="" class="link-item">
+              <i class="fa-solid fa-house"></i>Home
+            </a>
+            <a href="" class="link-item">
+              <i class="fa-solid fa-video"></i>Shorts
+            </a>
+            <a href="" class="link-item">
+              <i class="fa-solid fa-camera-retro"></i>Subscriptions
+            </a>
+          </div>
+          <!-- Rest of the sidebar content remains unchanged -->
+          <div class="section-seprator"></div>
+          <div class="link-section">
+            <h4 class="section-title">You</h4>
+            <a href="" class="link-item">
+              <i class="fa-solid fa-circle"></i>Your Channel
+            </a>
+            <a href="" class="link-item">
+              <i class="fa-solid fa-clock-rotate-left"></i>History
+            </a>
+            <a href="" class="link-item">
+              <i class="fa-solid fa-clock"></i> Watch Later 
+            </a>
+          </div>
+          <div class="section-seprator"></div>
+
+          <div class="link-section">
+            <h4 class="section-title">Explore</h4>
+            <a href="" class="link-item">
+              <i class="fa-solid fa-fire"></i> Trending
+            </a>
+            <a href="" class="link-item">
+              <i class="fa-solid fa-music"></i>Music
+            </a>
+            <a href="" class="link-item">
+              <i class="fa-solid fa-headset"></i>Gaming
+            </a>
+            <a href="" class="link-item">
+              <i class="fa-solid fa-medal"></i>Sports 
+            </a>
+          </div>
+          <div class="section-seprator"></div>
+
+          <div class="link-section">
+            <h4 class="section-title">More From Youtube</h4>
+            <a href="" class="link-item">
+              <i class="fa-solid fa-youtube"></i>Youtube Plus
+            </a>
+            <a href="" class="link-item">
+              <i class="fa-solid fa-youtube"></i>Youtbe Music
+            </a>
+            <a href="" class="link-item">
+              <i class="fa-solid fa-youtube"></i>Youtube Kids
+            </a>
+          </div>
+          <div class="section-seprator"></div>
+
+          <div class="link-section">
+            <a href="" class="link-item">
+              <i class="fa-solid fa-gear"></i>Setting
+            </a>
+            <a href="" class="link-item">
+              <i class="fa-solid fa-bug"></i>Report
+            </a>
+            <a href="" class="link-item">
+              <i class="fa-brands fa-hire-a-helper"></i>  Help
+            </a>
+            <a href="" class="link-item">
+              <i class="fa-solid fa-comment"></i>Feedback
+            </a>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Content wrapper remains unchanged -->
+      <div class="content-wrapper">
+        <div class="category-list">
+          <button class="category-button active">All</button>
+          <button class="category-button">Website</button>
+          <button class="category-button">Music</button>
+          <button class="category-button">Gaming</button>
+          <button class="category-button">Node.JS</button>
+          <button class="category-button">Java Script</button>
+          <button class="category-button">React.JS</button>
+          <button class="category-button">TypeScript</button>
+          <button class="category-button">Coding</button>
+          <button class="category-button">Next.JS</button>
+          <button class="category-button">Data Analysis</button>
+          <button class="category-button">Web Design</button>
+          <button class="category-button">HTML</button>
+          <button class="category-button">Tailwind</button>
+          <button class="category-button">CSS</button>
+          <button class="category-button">Express.JS</button>
+        </div>
+        <div class="video-list">
+          <a href="" class="video-card">
+            <div class="thumbnail-container">
+              <img src="web.png" alt="thumbnail" class="thumbnail"> 
+              <p class="duration">10:04</p>
+            </div>
+            <div class="video-info">
+              <img src="logo.png" alt="channel logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">Best Roadmap Of Web Development In 2025</h2>
+                <p class="channel-name">MasterDeveloper</p>
+                <p class="views">205K Views / 1 Months Ago </p>
+              </div>
+            </div>
+          </a>
+          <a href="" class="video-card">
+            <div class="thumbnail-container">
+              <img src="One.webp" alt="thumbnail" class="thumbnail"> 
+              <p class="duration">5:00:45</p>
+            </div>
+            <div class="video-info">
+              <img src="react.jpg" alt="channel logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">Master React JS in 5 Hours</h2>
+                <p class="channel-name">CodeHelper</p>
+                <p class="views">780K Views / 7 Months Ago </p>
+              </div>
+            </div>
+          </a>
+          <a href="" class="video-card">
+            <div class="thumbnail-container">
+              <img src="top10.webp" alt="thumbnail" class="thumbnail"> 
+              <p class="duration">21:04</p>
+            </div>
+            <div class="video-info">
+              <img src="hhrr.jpg" alt="channel logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">Top 10 Project Ideas For Final Year Student</h2>
+                <p class="channel-name">ProgrammingMaster</p>
+                <p class="views">1.1M Views / 5 Months Ago </p>
+              </div>
+            </div>
+          </a>
+          <a href="" class="video-card">
+            <div class="thumbnail-container">
+              <img src="three.jpg" alt="thumbnail" class="thumbnail"> 
+              <p class="duration">40:14</p>
+            </div>
+            <div class="video-info">
+              <img src="uuuyy.jpg" alt="channel logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">Calculator With HTML , CSS and JavaScript</h2>
+                <p class="channel-name">XCoder</p>
+                <p class="views">25K Views / 4 Months Ago </p>
+              </div>
+            </div>
+          </a>
+          <a href="" class="video-card">
+            <div class="thumbnail-container">
+              <img src="four.webp" alt="thumbnail" class="thumbnail"> 
+              <p class="duration">26:31</p>
+            </div>
+            <div class="video-info">
+              <img src="hello.jpg" alt="channel logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">Unique Projects Ideas</h2>
+                <p class="channel-name">Developer</p>
+                <p class="views">675K Views / 2 Weeks Ago </p>
+              </div>
+            </div>
+          </a>
+          <a href="" class="video-card">
+            <div class="thumbnail-container">
+              <img src="five.webp" alt="thumbnail" class="thumbnail"> 
+              <p class="duration">17:36</p>
+            </div>
+            <div class="video-info">
+              <img src="th.jpg" alt="channel logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">From Zero To Hero In Coding</h2>
+                <p class="channel-name">CodeHelp</p>
+                <p class="views">905K Views / 8 Months Ago </p>
+              </div>
+            </div>
+          </a>
+          <a href="" class="video-card">
+            <div class="thumbnail-container">
+              <img src="six.jpg" alt="thumbnail" class="thumbnail"> 
+              <p class="duration">14:44</p>
+            </div>
+            <div class="video-info">
+              <img src="jj.jpg" alt="channel logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">How To Master AI For Coding</h2>
+                <p class="channel-name">AI</p>
+                <p class="views">295K Views / 2 Months Ago </p>
+              </div>
+            </div>
+          </a>
+          <a href="" class="video-card">
+            <div class="thumbnail-container">
+              <img src="seven.jpg" alt="thumbnail" class="thumbnail"> 
+              <p class="duration">45:54</p>
+            </div>
+            <div class="video-info">
+              <img src="uuu.webp" alt="channel logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">E-Commerce Website Tutorial</h2>
+                <p class="channel-name">CodeHero</p>
+                <p class="views">1.7M Views / 6 Months Ago </p>
+              </div>
+            </div>
+          </a>
+          <a href="" class="video-card">
+            <div class="thumbnail-container">
+              <img src="top5.png" alt="thumbnail" class="thumbnail"> 
+              <p class="duration">21:56</p>
+            </div>
+            <div class="video-info">
+              <img src="qwert.jpg" alt="channel logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">Top 5 Ideas Before You Going To Start Development</h2>
+                <p class="channel-name">EzzProgrammer</p>
+                <p class="views">452K Views / 11 Months Ago </p>
+              </div>
+            </div>
+          </a>
+          <a href="" class="video-card">
+            <div class="thumbnail-container">
+              <img src="nine.jpg" alt="thumbnail" class="thumbnail"> 
+              <p class="duration">8:34</p>
+            </div>
+            <div class="video-info">
+              <img src="bvbv.jpg" alt="channel logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">How To Use AI In Projects </h2>
+                <p class="channel-name">Botx</p>
+                <p class="views">125K Views /  2 Weeks Ago </p>
+              </div>
+            </div>
+          </a>
+          <a href="" class="video-card">
+            <div class="thumbnail-container">
+              <img src="eleven.png" alt="thumbnail" class="thumbnail"> 
+              <p class="duration">1:07:24</p>
+            </div>
+            <div class="video-info">
+              <img src="cdo.jpg" alt="channel logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">Make Whole Full Stack Web Application In This Video</h2>
+                <p class="channel-name">JJxYoutuber</p>
+                <p class="views">675K Views / 11 Months Ago </p>
+              </div>
+            </div>
+          </a>
+          <a href="" class="video-card">
+            <div class="thumbnail-container">
+              <img src="tweleve.jpg" alt="thumbnail" class="thumbnail"> 
+              <p class="duration">34:41</p>
+            </div>
+            <div class="video-info">
+              <img src="byr.webp" alt="channel logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">Do And Don't In FullStack</h2>
+                <p class="channel-name">DDx</p>
+                <p class="views">2.2M Views /  1 Year Ago </p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </main>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
